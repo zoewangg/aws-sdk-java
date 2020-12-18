@@ -4,3 +4,7 @@ phases:
   build:
     commands:
     - mvn clean package -Ppublishing,staging -Dfindbugs.skip -DskipTests -Dcheckstyle.skip -Dadditionalparam=-Xdoclint:none -Dadditionalparam=--allow-script-in-comments -DuseAgent=false -Dzip.generation.additional.files.sources=/var/sdk/additional-files-to-copy -e
+
+artifacts:
+  files:
+    - target/aws-java-sdk.zip
