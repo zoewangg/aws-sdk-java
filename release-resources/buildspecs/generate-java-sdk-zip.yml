@@ -7,4 +7,4 @@ phases:
 
 artifacts:
   files:
-    - target/aws-java-sdk.zip
+    - aws-java-sdk-osgi/target/aws-java-sdk.zip
